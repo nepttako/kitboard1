@@ -5,5 +5,6 @@ class AddCategoryTable < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+  add_column :posts, :category_id, :integer
   end
 end
